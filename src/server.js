@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 const stripe = require("stripe")(process.env['stripePrivateKey']);
-const port = process.env["PORT"] || "4242";
+const port = process.env["PORT"] || "3000";
 
 
 
